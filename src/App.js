@@ -13,6 +13,7 @@ import Escrow from './abis/Escrow.json'
 // Config
 import config from './config.json';
 
+
 function App() {
   const [provider, setProvider] = useState(null)
   const [escrow, setEscrow] = useState(null)
